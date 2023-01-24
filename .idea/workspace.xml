@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cd9dfec-74ee-4a6d-be50-963984a0a0cb" name="Changes" comment="regex">
+    <list default="true" id="7cd9dfec-74ee-4a6d-be50-963984a0a0cb" name="Changes" comment="Antes de incorporar el package fechas y crear de nuevo el jar">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/librerias_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/librerias_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dates/DateHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dates/DateHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jar/librerias.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jar/librerias.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/StringHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/StringHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +46,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/manuel/curso_22_23/librerias/jar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
@@ -84,14 +86,22 @@
       <option name="project" value="LOCAL" />
       <updated>1674225904858</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Antes de incorporar el package fechas y crear de nuevo el jar">
+      <created>1674483126929</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674483126929</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Primer librería" />
     <MESSAGE value="regex" />
-    <option name="LAST_COMMIT_MESSAGE" value="regex" />
+    <MESSAGE value="Antes de incorporar el package fechas y crear de nuevo el jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Antes de incorporar el package fechas y crear de nuevo el jar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

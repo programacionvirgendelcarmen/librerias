@@ -1,5 +1,7 @@
 package strings;
 
+import java.util.Random;
+
 /**
  * HelpeClass that offers helper methods
  * related with strings
@@ -67,7 +69,20 @@ public class StringHelper {
         char letraDatos = datos.charAt(resto);
         return letraDatos == letraID;
     }
-
+    public static String createSafePassword (int length){
+        if (length < 4)
+            return null;
+        final String  FUENTE_CARACTERES =
+            "abcdefghijklmnñopqrstuvwxyzABCDEFEGHIJKLMNÑOPQRSTUVWXYZ¿?()=@.:,;!¡&{}012456789";
+        StringBuilder stringBuilder = new StringBuilder();
+        Random random = new Random();
+        for (int i = 0; i < length; i++) {
+            int posicion = random.nextInt(FUENTE_CARACTERES.length());
+            char caracter = FUENTE_CARACTERES.charAt(posicion);
+            stringBuilder.append(caracter);
+        }
+        return stringBuilder.toString();
+    }
     /*public static void main(String[] args) {
         //System.out.println(isSafePassword(12, 12, "1aÁabc$Nñg"));
         // System.out.println(isSafePasswordDefault("1aÁabc_Nñg"));
