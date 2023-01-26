@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cd9dfec-74ee-4a6d-be50-963984a0a0cb" name="Changes" comment="Antes de incorporar el package fechas y crear de nuevo el jar">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/librerias_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/librerias_jar.xml" afterDir="false" />
+    <list default="true" id="7cd9dfec-74ee-4a6d-be50-963984a0a0cb" name="Changes" comment="Nuevo jar e iniciando el método createSafePassword">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jar/librerias.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jar/librerias.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jar/librerias.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strings/StringHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/StringHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674483126929</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Nuevo jar e iniciando el método createSafePassword">
+      <created>1674571480149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674571480149</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -101,7 +107,8 @@
     <MESSAGE value="Primer librería" />
     <MESSAGE value="regex" />
     <MESSAGE value="Antes de incorporar el package fechas y crear de nuevo el jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Antes de incorporar el package fechas y crear de nuevo el jar" />
+    <MESSAGE value="Nuevo jar e iniciando el método createSafePassword" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nuevo jar e iniciando el método createSafePassword" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

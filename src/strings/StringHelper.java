@@ -72,21 +72,32 @@ public class StringHelper {
     public static String createSafePassword (int length){
         if (length < 4)
             return null;
+      //  int contador = 0;
+        Random random = new Random();
         final String  FUENTE_CARACTERES =
             "abcdefghijklmnñopqrstuvwxyzABCDEFEGHIJKLMNÑOPQRSTUVWXYZ¿?()=@.:,;!¡&{}012456789";
-        StringBuilder stringBuilder = new StringBuilder();
-        Random random = new Random();
-        for (int i = 0; i < length; i++) {
-            int posicion = random.nextInt(FUENTE_CARACTERES.length());
-            char caracter = FUENTE_CARACTERES.charAt(posicion);
-            stringBuilder.append(caracter);
-        }
+        StringBuilder stringBuilder = null;
+        do {
+            stringBuilder = new StringBuilder();
+            for (int i = 0; i < length; i++) {
+                int posicion = random.nextInt(FUENTE_CARACTERES.length());
+                char caracter = FUENTE_CARACTERES.charAt(posicion);
+                stringBuilder.append(caracter);
+            }
+        //    System.out.println("Intento: " + contador++);
+        } while ( ! isSafePassword(length, length, stringBuilder.toString()));
         return stringBuilder.toString();
+
+
     }
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         //System.out.println(isSafePassword(12, 12, "1aÁabc$Nñg"));
         // System.out.println(isSafePasswordDefault("1aÁabc_Nñg"));
         //System.out.println(checkPhoneNumber("723456789"));
-        System.out.println(isValideID("00123456S".replaceAll("[- ]", "")));
-    }*/
+       // System.out.println(isValideID("00123456S".replaceAll("[- ]", "")));
+      /*  for (int i = 0; i < 10 ; i++) {
+            System.out.println(createSafePassword(i));
+        }*/
+        System.out.println(createSafePassword(4));
+    }
 }
