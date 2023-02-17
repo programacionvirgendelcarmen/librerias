@@ -90,14 +90,14 @@ public class StringHelper {
 
 
     }
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         //System.out.println(isSafePassword(12, 12, "1aÁabc$Nñg"));
         // System.out.println(isSafePasswordDefault("1aÁabc_Nñg"));
         //System.out.println(checkPhoneNumber("723456789"));
        // System.out.println(isValideID("00123456S".replaceAll("[- ]", "")));
-      /*  for (int i = 0; i < 10 ; i++) {
+      *//*  for (int i = 0; i < 10 ; i++) {
             System.out.println(createSafePassword(i));
-        }*/
+        }*//*
         System.out.println(createSafePassword(4));
-    }
+    }*/
 }

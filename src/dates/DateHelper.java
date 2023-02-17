@@ -2,6 +2,7 @@ package dates;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.Period;
 
 public class DateHelper {
     private static String separadores = "[/-]";
@@ -49,6 +50,11 @@ public class DateHelper {
             if ( iAnno % 400 != 0)
                 return false;
         return true;
+    }
+    public static int calcularEdad(LocalDate fecha) {
+        LocalDate fechaActual = LocalDate.now();
+        Period periodo = Period.between(fechaActual, fecha);
+        return periodo.getYears();
     }
 
    /* public static void main(String[] args) {

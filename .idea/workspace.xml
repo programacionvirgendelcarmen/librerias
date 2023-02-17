@@ -9,9 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cd9dfec-74ee-4a6d-be50-963984a0a0cb" name="Changes" comment="Nuevo jar e iniciando el método createSafePassword">
+    <list default="true" id="7cd9dfec-74ee-4a6d-be50-963984a0a0cb" name="Changes" comment="Libreria añadiendo el método para obtener una contraseña segura">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/librerias_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jar/librerias.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dates/DateHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dates/DateHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strings/StringHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/StringHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674571480149</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Libreria añadiendo el método para obtener una contraseña segura">
+      <created>1674730756405</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674730756405</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,7 +116,8 @@
     <MESSAGE value="regex" />
     <MESSAGE value="Antes de incorporar el package fechas y crear de nuevo el jar" />
     <MESSAGE value="Nuevo jar e iniciando el método createSafePassword" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nuevo jar e iniciando el método createSafePassword" />
+    <MESSAGE value="Libreria añadiendo el método para obtener una contraseña segura" />
+    <option name="LAST_COMMIT_MESSAGE" value="Libreria añadiendo el método para obtener una contraseña segura" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
